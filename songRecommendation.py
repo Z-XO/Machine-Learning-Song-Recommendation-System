@@ -4,8 +4,8 @@ from datetime import datetime
 import warnings
 from scipy.sparse import csr_matrix
 from fuzzywuzzy import fuzz
-warnings.filterwarnings("ignore", category=FutureWarning)
 
+warnings.filterwarnings("ignore", category=FutureWarning)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
