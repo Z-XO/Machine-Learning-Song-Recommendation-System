@@ -91,7 +91,7 @@ songs = pd.merge(song_info, song_actual, on="song_id", how="left")
 model = Recommender(metric= 'euclidean', algorithm= 'brute', k=10, data = song_info, decode_id_song = song_actual)
 
 # Example song input,
-song = 'say my name'
+song = 'Professional - The Weeknd'
 
 new_recommendations = model.make_recommendation(new_song = song, n_recommendations = 10)
 
